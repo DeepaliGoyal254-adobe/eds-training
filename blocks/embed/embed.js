@@ -111,4 +111,3 @@ export default function decorate(block) {
     observer.observe(block);
   }
 }
-
