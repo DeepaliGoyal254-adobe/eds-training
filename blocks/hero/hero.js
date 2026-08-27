@@ -11,8 +11,9 @@ function readHeroConfig(block) {
   [...block.children].forEach((row) => {
     const cols = [...row.children];
     if (cols.length < 2) return;
-    const key = toClassName(cols[0].textContent);
-    config[key] = cols[1];
+    const [labelCol, valueCol] = cols;
+    const key = toClassName(labelCol.textContent);
+    config[key] = valueCol;
   });
   return config;
 }
