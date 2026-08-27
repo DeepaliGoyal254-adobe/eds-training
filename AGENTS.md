@@ -143,7 +143,7 @@ With this information, you can construct URLs for the preview environment (same 
 
 - **Production Preview**: `https://main--{repo}--{owner}.aem.page/`
 - **Production Live**: `https://main--{repo}--{owner}.aem.live/`
-- **Feature Preview**: `https://{branch}--{repo}--{owner}.aem.page/`
+- **Feature Preview**: `https://feature-training--{repo}--{owner}.aem.page/`
 
 ### Publishing Process
 1. Push changes to a feature branch
