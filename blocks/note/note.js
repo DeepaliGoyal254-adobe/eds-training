@@ -29,3 +29,4 @@ export default async function decorate(block) {
     decorateIcons(block);
   }
 }
+
