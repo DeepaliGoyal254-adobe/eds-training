@@ -62,7 +62,7 @@ const loadEmbed = (block, link, autoplay) => {
 
   const EMBEDS_CONFIG = [
     {
-      match: ['youtube', 'youtu.be'],
+      match: ['youtube', 'youtu.be', 'youtube.com'],
       embed: embedYoutube,
     },
     {
